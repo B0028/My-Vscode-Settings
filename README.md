@@ -1,8 +1,9 @@
 # My-Vscode-Settings
+## Guide for settings and snippets
 Settings goes inside this path "C:\Users\UserName\AppData\Roaming\Code\User"
 Snippets goes inside this path "C:\Users\UserName\AppData\Roaming\Code\User\snippets"
 
-MY EXTENSIONS
+# My extension list
 Bearded Theme
 Material Icon Theme
 Auto Rename Tag
