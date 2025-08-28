@@ -1,21 +1,21 @@
 # My-Vscode-Settings
-## Guide for settings and snippets
-Settings goes inside this path "C:\Users\UserName\AppData\Roaming\Code\User"
-Snippets goes inside this path "C:\Users\UserName\AppData\Roaming\Code\User\snippets"
+### Guide for settings and snippets
+Settings goes inside this path `C:\Users\UserName\AppData\Roaming\Code\User`
+Snippets goes inside this path `C:\Users\UserName\AppData\Roaming\Code\User\snippets`
 
-# My extension list
-Bearded Theme
-Material Icon Theme
-Auto Rename Tag
-Color Highlight
-Microsoft Edge Tools for VS Code
-Prettier - Code formatter
-Live Server
-vscode-pdf
+### My extension list
+-Bearded Theme  
+-Material Icon Theme  
+-Auto Rename Tag
+-Color Highlight
+-Microsoft Edge Tools for VS Code
+-Prettier - Code formatter
+-Live Server
+-vscode-pdf
 
-Others
-Quokka.js
-Matrix Theme
-Polacode
-GitHub Repositories
-Remote Repositories
+** Others **
+-Quokka.js
+-Matrix Theme
+-Polacode
+-GitHub Repositories
+-Remote Repositories
