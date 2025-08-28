@@ -1,0 +1,73 @@
+{
+	// Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"CSS Bakzy structure": {
+		"prefix": "B!",
+		"body": [
+			"/* CUSTOM FONT FROM GOOGLE FONTS */",
+			"@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');",
+			"/* ------------ */",
+			"",
+			"/* DEFAULT FONT SIZE */",
+			"html {",
+			"    font-size: 16px; /* Para el uso de \"em\" y \"rem\" */",
+			"}",
+			"/* ------------ */",
+			"",
+			"/*    GENERAL    */",
+			"* {",
+			"    box-sizing: border-box;",
+			"    font-family: Arial, Helvetica, sans-serif; /* Fallback fonts */",
+			"    font-weight: 400;",
+			"    font-style: normal;",
+			"    text-decoration: none;",
+			"    margin: 0;",
+			"    padding: 0;",
+			"}",
+			"a {",
+			"    color: inherit; /* Quita color de links */",
+			"}",
+			"/* ------------ */",
+			"",
+			"",
+			"${1:CODE}",
+			"",
+			"",
+			"",
+			"/* MARCA DE EJERCICIOS */",
+			"#wm {",
+			"    position: fixed;",
+			"    right: 0;",
+			"    bottom: 100px;",
+			"    color: rgb(255, 255, 255);",
+			"    background-color: rgba(0, 0, 0, 0.534);",
+			"    text-align: right;",
+			"    width: 220px;",
+			"    border-radius: 40px 0px 0px 40px;",
+			"    padding: 20px 15px 20px 10px;",
+			"    height: auto;",
+			"    display: flex;",
+			"    justify-content: right;",
+			"    align-items: center;",
+			"    gap: 15px;",
+			"}",
+			"#wm p {",
+			"    font-family: \"Montserrat\", Arial, sans-serif;",
+			"    font-style: italic;",
+			"}",
+			"/* ------------ */"
+		],
+		"description": "CSS Bakzy structure"
+	}
+}
