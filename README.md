@@ -13,7 +13,7 @@ Snippets goes inside this path `C:\Users\UserName\AppData\Roaming\Code\User\snip
 - Live Server  
 - vscode-pdf  
 
-** Others **  
+**Other extensions**
 - Quokka.js  
 - Matrix Theme  
 - Polacode  
