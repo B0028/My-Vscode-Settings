@@ -1,0 +1,50 @@
+`.navbar-expand-lg`
+
+Resumen:
+
+Se encarga de la responsividad de la barra de navegación. Específicamente de que al superar los 992px de ancho en la ventana de la web, el contenido de la barra de navegación se muestra extendido. Pero al “achicar” la ventana de la web por debajo de ese ancho de 992px, se activara la responsividad cambiando la barra de navegación a otro estilo mejor situado para el ancho de la ventana.
+
+Explicación extensa:
+
+Se utiliza para controlar el comportamiento de respuesta de una barra de navegación. Específicamente, dicta el punto de interrupción en el cual el contenido de la barra de navegación se expandirá horizontalmente en lugar de contraerse en un menú de hamburguesas conmutable.
+
+- Control de punto de interrupción:
+    
+    `lg` en `.navbar-expand-lg` se refiere al punto de interrupción "grande" en el sistema de cuadrícula responsivo de Bootstrap, que normalmente es 992 px.
+    
+- Comportamiento de expansión:
+    
+    cuando el ancho del viewport es igual o mayor que el punto de interrupción lg (992 px), el contenido de la barra de navegación (enlaces, marca, formularios, etc.) se mostrará horizontalmente.
+    
+- Comportamiento de colapso: 
+cuando el ancho de la ventana gráfica cae por debajo del punto de interrupción lg, el contenido de la barra de navegación se colapsará y quedará oculto detrás de un botón de alternancia (el ícono de "hamburguesa") que, al hacer clic, revela el contenido oculto.
+
+Otros comandos:
+
+Otras abreviaciones y sus pixeles
+
+`-sm`, `-md`, `-lg`, `-xl`, `-xxl`
+
+**576px, 768px, 992px, 1200px, and 1400px**
+
+`.navbar-brand`
+
+`.col-md-6` 
+
+Sistema de cuadrícula receptivo,  que se utiliza para definir el ancho de una columna dentro de una fila.
+
+- `col`: Indica que se trata de una clase de columna.
+- `md`: especifica el punto de interrupción para dispositivos "medios". Esto significa que la columna tendrá efecto en pantallas con un ancho igual o superior a 768 píxeles. Por debajo de este punto de interrupción, la columna normalmente se apilará verticalmente, a menos que también se apliquen otras clases de punto de interrupción (como `.col-sm-*` o `.col-*`).
+- `6`: Representa el número de columnas de un sistema de cuadrícula de 12 columnas que ocupará esta columna específica. En este caso, `6` significa que la columna ocupará la mitad del ancho disponible dentro de su fila principal.
+
+`img-fluid`
+
+ Se usa para hacer que las imágenes sean responsivas. Esto significa que la imagen ajustará automáticamente su tamaño para que quepa dentro de su contenedor principal y el tamaño de la pantalla, sin desbordarse ni perder su relación de aspecto.
+
+Cuando la clase `img-fluid` se aplica a una etiqueta `<img>`, Bootstrap aplica las siguientes propiedades CSS: Ancho máximo: 100% y altura: Automático.
+
+`.rounded`
+
+aplica un border radius de 6px(defualt) en las cuatro esquinas.
+
+d-grid. automaticamente aplica col-12 al elemento que este dentro si es uno solo.
