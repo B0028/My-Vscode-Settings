@@ -5,7 +5,8 @@ Snippets goes inside this path `C:\Users\UserName\AppData\Roaming\Code\User\snip
 
 ### My extension list
 - Bearded Theme  
-- Material Icon Theme  
+- Material Icon Theme
+- HTML CSS Support
 - Auto Rename Tag  
 - Color Highlight  
 - Microsoft Edge Tools for VS Code  
